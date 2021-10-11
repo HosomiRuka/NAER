@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NAER</title>
+    <link href="./css/reservation.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="logo">
+      <h1>
+        <a href="./index.html"
+          ><img src="./images/logo.png" alt="NEAR" width="77" height="109"
+        /></a>
+      </h1>
+    </div>
+
+    <div class="navigations">
+      <ul>
+        <li class="menu"><a href="./menu.html">メニュー</a></li>
+        <li class="about">
+          <a href="./index.html#sp">お店について</a>
+        </li>
+        <li class="staff"><a href="./staff.html">スタッフ</a></li>
+        <li class="event"><a href="./event.html">イベント情報</a></li>
+        <li class="sns"><a href="./index.html#sn">SNS</a></li>
+        <li class="access"><a href="./index.html#ac">アクセス</a></li>
+        <li class="reservation">
+          <a href="./reservation.html">予約する</a>
+        </li>
+      </ul>
+    </div>
+
+    <span class="reservation_ollrite"></span>
+    <span class="reservation_olllrft"></span>
+
+    <div class="reservation_all">
+      <form action="user-output.php" method="get">
+        <table>
+          <tr>
+            <th align="center" valign="top" width="200" height="40">お名前</th>
+            <td valign="top"><input type="text" name="id" value="" /></td>
+          </tr>
+          <tr>
+            <th align="center" valign="top" width="" height="">フリガナ</th>
+            <td valign="top"><input type="text" name="name" value="" /></td>
+          </tr>
+
+          <tr>
+            <th align="center" valign="top" width="" height="">
+              メールアドレス
+            </th>
+            <td valign="top"><input type="text" name="pass" value="" /></td>
+          </tr>
+          <tr>
+            <th>ご来店時間</th>
+            <td><input type="time" name="sample1" style="width: 80px" /></td>
+          </tr>
+          <tr>
+            <th align="center" valign="top" width="" height="">ご来店人数</th>
+            <td>
+              <select name="address">
+                <option value="-" selected>-------</option>
+                <option value="hokkaidou">1</option>
+                <option value="tohoku">2</option>
+                <option value="kantou">3</option>
+                <option value="chubu">4</option>
+                <option value="kinki">5</option>
+                <option value="chugoku">6</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th align="center" valign="top" width="" height="">ご希望のお席</th>
+            <td>
+              <p>
+                <label
+                  ><input
+                    type="radio"
+                    name="media"
+                    value="internet"
+                    class="radiobutton"
+                  />カウンター席(店員とコミュニケーションを取る)</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="media"
+                    value="tv"
+                    class="radiobutton"
+                  />テーブル席(コミュニケーションを取らない)
+                </label>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th align="center" valign="top" width="" height="">ご意見ご参考</th>
+            <td><textarea rows="5" cols="40" name="comment"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input class="reset" type="reset" value="リセット" />
+              <input class="send" type="submit" name="send" value="送信" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <p class="bottom">&copy;NEAR</p>
+  </body>
+</html>

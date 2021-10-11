@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body {
+    font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+
+.navigations a {
+    color: black;
+}
+
+.navigations a:hover {
+    opacity: 0.5;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.logo {
+    float: left;
+}
+
+.logo {
+    position: fixed;
+    top: -10px;
+    left: 183px;
+    z-index: 3;
+}
+
+.logo:hover{
+	opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navigations {
+    width: 100％;
+    height: 77;
+    right: 0;
+    left: 0;
+    margin:0 auto;
+    position: fixed; /*positionかけてるので浮いてた*/
+    background-color: rgba(255, 255, 255, 0.92);
+    z-index: 2;
+}
+
+
+.navigations li {
+    list-style-type: none;
+    position: relative;
+    float: left; /*こいつのせい*/
+    top: 5px;
+    left: 274px;
+    margin: 30px;
+}
+
+
+.menu {
+    border-bottom: 3px solid #CC0D29;
+}
+
+.menu a:hover {
+    color: #CC0D29;
+}
+
+.about {
+    border-bottom: 3px solid #0092E5;
+}
+
+.about a:hover {
+    color: #0092E5;
+}
+
+.staff {
+    border-bottom: 3px solid #F38517;
+}
+
+.staff a:hover {
+    color: #F38517;
+}
+
+.event {
+    border-bottom: 3px solid #21A27A;
+}
+
+.event a:hover {
+    color: #21A27A;
+}
+
+.sns {
+    border-bottom: 3px solid #FFD02A;
+}
+
+.sns a:hover {
+    color: #FFD02A;
+}
+
+
+.access {
+    border-bottom: 3px solid #B077B1;
+}
+
+.access a:hover {
+    color: #B077B1;
+}
+
+
+.reservation {
+    font-size: 20px;
+    background-image: url("images/top_page/top/342x.png");
+}
+
+.reservation a {
+    color: #CC0D29;
+}
+
+.reservation_all {
+    /* border:solid tomato; */
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 140px;
+    /* margin-top:140px; */
+}
+
+th,
+td {
+    padding: 20px 0 20px 0;
+    /* text-align:center; */
+}
+
+label {
+    display: block;
+}
+
+table {
+    margin: 0 auto;
+}
+
+input,
+select {
+    line-height: 40px;
+    height: 40px;
+}
+
+.radiobutton{
+    position: relative;
+    /* top: 4px; */
+    width: 10px;
+    height: 15px;
+}
+
+.reset{
+    width:8em;
+    color:aliceblue; 
+    background:#03c8ff;
+    border:none;
+    border-radius:25px; 
+}
+
+.send{
+    width:10em;
+    height:50px;
+    color:aliceblue;
+    /* padding:20px; */
+    background:#f05d5d;
+    /* border:solid 2px red; */
+    border:none;
+    border-radius:25px;
+}
+
+.send:hover{
+    background:#f09393;
+}
+
+.reset:hover{
+    background:#5fdcfe;
+}
+.reservation_ollrite{
+    width:332px;
+    height:730px;
+    background:url(../images/reservation/pass_reservation.right.svg);
+    background-repeat:no-repeat;
+    position: absolute;
+    top:200px;
+}
+
+.reservation_olllrft{
+    width:360px;
+    height:800px;
+    background:url(../images/reservation/pass_reservation.left.svg);
+    background-repeat:no-repeat;
+    position: absolute;
+    right:0px;
+    top:90px;
+}
+
+.bottom{
+	width: 100%;
+	height:80px;
+	background: url(../images/top_page/access/poss_bottom.svg);
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size:24px;
+    margin-top:250px;
+}

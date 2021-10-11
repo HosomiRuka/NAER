@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.menuoll img{
+	box-shadow: 10px 5px 15px #e1e1e1;
+}
+
+body {
+	font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.navigations a{
+	color: black;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.logo {
+	float: left;
+}
+
+.logo {
+	position: fixed;
+	top: -10px;
+	left: 183px;
+	z-index: 3;
+}
+
+.logo:hover{
+	opacity: 0.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.title{
+    width: 100%px;
+    margin:0 auto;
+	/* border:solid tomato; */
+	display: flex;
+    justify-content: center;
+    position: relative;
+    top:140px;
+}
+
+.title p{
+    display: flex;
+    align-content: center;
+    font-size: 30px;
+}
+
+.topimg {
+	z-index: 1;
+}
+
+.navigations {
+	width: 100%;
+	height: 77;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.92);
+	z-index: 2;
+}
+
+
+.navigations li {
+	list-style-type: none;
+	position: relative;
+	float: left;
+	top: 5px;
+	left: 274px;
+	margin: 30px;
+}
+
+
+.menu {
+	border-bottom: 3px solid #CC0D29;
+}
+
+.menu a:hover{
+	color:#CC0D29;
+}
+
+.about {
+	border-bottom: 3px solid #0092E5;
+}
+
+.about a:hover{
+	color:#0092E5;
+}
+.staff {
+	border-bottom: 3px solid #F38517;
+}
+
+.staff a:hover{
+	color:#F38517;
+}
+
+.event {
+	border-bottom: 3px solid #21A27A;
+}
+
+.event a:hover{
+	color:#21A27A;
+}
+
+.sns {
+	border-bottom: 3px solid #FFD02A;
+}
+
+.sns a:hover{
+	color:#FFD02A;
+}
+
+
+.access {
+	border-bottom: 3px solid #B077B1;
+}
+
+.access a:hover{
+	color:#B077B1;
+}
+
+
+.reservation {
+	font-size:20px;
+	background-image: url("images/top_page/top/342x.png");
+}
+
+.reservation a{
+	text-align:center;
+	line-height:38px;
+	width:140px;
+	height:40px;
+	border-radius: 100vh;;
+	background:#FD3E3E;
+	display: block;
+	color:#fff;
+}
+
+
+.navigations a:hover{
+    opacity: 0.5;
+}
+
+
+.navigations a:hover{
+    opacity: 0.5;
+}
+
+.menu_backright{
+    position: absolute;
+    top:200px;
+	right:-130px;
+	width: 370px;
+	height:2775px;
+    background:url(../images/menu/pass_menu.right.svg);
+	background-repeat: no-repeat;
+}
+
+.menu_backleft{
+    position: absolute;
+    top:200px;
+	left:-130px;
+	width: 480px;
+    height:2330px;
+    background:url(../images/menu/pass_menu.left.svg);
+	background-repeat: no-repeat;
+}
+
+.menuoll{
+    width: 1000px;
+    height:730px;
+    margin: 150px auto;
+    /* border:solid tomato; */
+    margin-bottom:200px;
+}
+
+.drink{
+    width:1000px;
+    font:left;    
+    margin-right:120px;
+    margin:80px;
+    /* border:solid tomato; */
+}
+
+.menu_drink{
+    width:100px;
+    border-left:5px solid #FF0000;
+    border-bottom:1px solid #FF0000;
+}
+
+.box{
+	padding:2em;
+	width:275px;
+	height:260px;
+	float:left;
+	font-size:0.8em;
+	text-align:center;
+    /* border:solid tomato; */
+    margin:0 auto;
+    margin-bottom:100px;
+}
+
+.box p{
+	/* border:solid tomato; */
+	width: 300px;
+    text-align:left;
+	margin-top:30px;
+	position: relative;
+}
+
+.menu_food{
+    width:100px;
+    border-left:5px solid #FFD02A;
+    border-bottom:1px solid #FFD02A;
+}
+
+.menu_desert{
+    width:100px;
+    border-left:5px solid #F065F5;
+    border-bottom:1px solid #F065F5;
+}
+
+.money{
+	/* border:solid tomato; */
+	font-size:20px;
+	position: absolute;
+	right: 0;
+	top:25%;
+    /* color:tomato; */
+}
+
+.bottom{
+	width: 100%;
+	height:80px;
+	background: url(../images/top_page/access/poss_bottom.svg);
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size:24px;
+	margin-top:80px;
+}

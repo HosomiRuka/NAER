@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+body {
+	font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.navigations a{
+	color: black;
+}
+
+p{
+	font-size: 18px;
+}
+
+
+.logo {
+	float: left;
+}
+
+.logo {
+	position: fixed;
+	top: -10px;
+	left: 183px;
+	z-index: 3;
+}
+
+.logo:hover{
+	opacity: 0.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navigations {
+	width: 100%;
+	height: 77;
+	margin: auto;
+	position: fixed;
+	top:0;
+	background-color: rgba(255, 255, 255, 0.92);
+	z-index: 2;
+}
+
+.navigations li {
+	list-style-type: none;
+	position: relative;
+	float: left;
+	top: 5px;
+	left: 274px;
+	margin: 30px;
+}
+
+.menu {
+	border-bottom: 3px solid #CC0D29;
+}
+
+.menu a:hover{
+	color:#CC0D29;
+}
+
+.about {
+	border-bottom: 3px solid #0092E5;
+}
+
+.about a:hover{
+	color:#0092E5;
+}
+.staff {
+	border-bottom: 3px solid #F38517;
+}
+
+.staff a:hover{
+	color:#F38517;
+}
+
+.event {
+	border-bottom: 3px solid #21A27A;
+}
+
+.event a:hover{
+	color:#21A27A;
+}
+
+.sns {
+	border-bottom: 3px solid #FFD02A;
+}
+
+.sns a:hover{
+	color:#FFD02A;
+}
+
+
+.access {
+	border-bottom: 3px solid #B077B1;
+}
+
+.access a:hover{
+	color:#B077B1;
+}
+
+
+.reservation {
+	font-size:20px;
+	background-image: url("images/top_page/top/342x.png");
+}
+
+.reservation a{
+	text-align:center;
+	line-height:38px;
+	width:140px;
+	height:40px;
+	border-radius: 100vh;;
+	background:#FD3E3E;
+	display: block;
+	color:#fff;
+}
+
+.navigations a:hover{
+    opacity: 0.5;
+}
+
+
+.navigations a:hover{
+    opacity: 0.5;
+}
+
+.titlestaff{
+	width: 280px;
+	margin:0 auto;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	margin-top:140px;
+    /* border:solid tomato; */
+}
+
+.staffall{
+    width:100%;
+    height:1000px;
+    /* border:solid tomato; */
+    margin:0 auto;
+    margin-top:240px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+.box{
+    width:350px;
+    height:500px;
+    /* border:solid tomato; */
+    margin:0 35px 35px 35px;
+    text-align:center;
+}
+
+.text{
+    width:300px;
+    text-align:left;
+    margin:0 auto;
+    /* border:solid tomato; */
+    line-height: 3;
+}
+
+.concept_ollrite{
+	position: absolute;
+	top:150px;
+	right:-100px;
+	width: 322px;
+	height:1310px;
+	background:url(../images/staff_page/pass_right.svg);
+	background-repeat: no-repeat;
+}
+
+.concept_olllrft{
+	position: absolute;
+	top:200px;
+	left:-100px;
+	width: 322px;
+	height:1310px;
+	background:url(../images/staff_page/pass_left.svg);
+	background-repeat: no-repeat;
+}
+
+.bottom{
+	width: 100%;
+	height:80px;
+	background: url(../images/top_page/access/poss_bottom.svg);
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size:24px;
+	margin-top:80px;
+}
+

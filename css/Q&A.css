@@ -1,0 +1,307 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Hiragino Maru Gothic ProN", sans-serif;
+	min-width: 1000px;
+}
+
+.navigations a{
+	color: black;
+}
+
+p{
+	font-size: 20px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo {
+	position: fixed;
+	top: -10px;
+	left: 183px;
+	z-index: 3;
+}
+
+.logo:hover{
+	opacity: 0.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.navigations {
+	width: 100%;
+	height: 77;
+    position: fixed;
+    top:0;
+	background-color: rgba(255, 255, 255, 0.92);
+	z-index: 2;
+	min-width: 1000px;
+}
+
+.navigations li {
+	list-style-type: none;
+	position: relative;
+	float: left;
+	top: 5px;
+	left: 274px;
+	margin: 30px;
+}
+
+.menu {
+	border-bottom: 3px solid #CC0D29;
+}
+
+.menu a:hover{
+	color:#CC0D29;
+}
+
+.about {
+	border-bottom: 3px solid #0092E5;
+}
+
+.about a:hover{
+	color:#0092E5;
+}
+.staff {
+	border-bottom: 3px solid #F38517;
+}
+
+.staff a:hover{
+	color:#F38517;
+}
+
+.event {
+	border-bottom: 3px solid #21A27A;
+}
+
+.event a:hover{
+	color:#21A27A;
+}
+
+.sns {
+	border-bottom: 3px solid #FFD02A;
+}
+
+.sns a:hover{
+	color:#FFD02A;
+}
+
+
+.access {
+	border-bottom: 3px solid #B077B1;
+}
+
+.access a:hover{
+	color:#B077B1;
+}
+
+
+.reservation {
+	font-size:20px;
+	background-image: url("images/top_page/top/342x.png");
+}
+
+.reservation a{
+	text-align:center;
+	line-height:38px;
+	width:140px;
+	height:40px;
+	border-radius: 100vh;;
+	background:#FD3E3E;
+	display: block;
+	color:#fff;
+}
+
+.navigations a:hover{
+    opacity: 0.5;
+}
+
+
+.navigations a:hover{
+    opacity: 0.5;
+}
+
+.QandA{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    text-align:center;
+    margin-top:140px;
+}
+
+.Q{
+    color: #0092E5;
+}
+
+.A{
+    color:#FF0B0B;
+}
+
+.QandA h2{
+    margin-top:65px;
+}
+
+.QandA p{
+    margin:20px 0 20px 0;
+}
+
+.Qtext:first-letter{
+    color: #0092E5;
+    font-size:25px;
+}
+
+.Atext:first-letter{
+    color:#FF0B0B;
+    font-size:25px;
+}
+.Atext{
+	padding-bottom:80px;
+}
+
+.QandA h3{
+	font-size:25px;
+    margin:120px 0 80px 0; 
+}
+
+.QandA h2{
+	font-size:35px;
+}
+
+.QandA h4{
+    font-size:20px;
+    margin:0;
+    padding:0;
+    color:#ff5e5e;
+	margin-bottom:65px;
+	margin-top:30px;
+}
+
+p.attention{
+    font-size:15px;
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
+
+
+.botann{
+    width:150px;
+    height:46px;
+    background-color:#FF8697;
+    border-radius:23px;
+    margin:0 auto;
+}
+
+.botann a{
+    color:#FFF;
+    display:block;
+    width:100%;
+    height:100%;
+    line-height:46px;
+    text-align:center;
+}
+
+.bottom{
+	width: 100%;
+	height:80px;
+	background: url(../images/top_page/access/poss_bottom.svg);
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size:24px;
+	margin-top:80px;
+}
+
+.botann a:hover{
+    /* opacity:0.4; */
+    background-color:#FF0B0B;
+    border-radius:23px;
+}
+
+.QandA_ollrite{
+	position: absolute;
+	right:0px;
+	width: 180px;
+	height:1280px;
+	background:url(../images/QA/pass_right.svg);
+	background-repeat: no-repeat;
+}
+
+.QandA_olllrft{
+	position: absolute;
+	left:-50px;
+	width: 322px;
+	height:1417px;
+	background:url(../images/QA/pass_left.svg);
+	background-repeat: no-repeat;
+
+}
+
+.telephone h2{
+	/* 文字を基準にして電話置く */
+	position: relative;
+	display: inline-block;
+	/* ブロックのままだと並べられない */
+	/* ブロック要素だとコンテンツ幅が親要素の１００％になるから基準点がおもってる場所とずれる */
+}
+
+/* 文字の前に置くのがビフォー */
+.telephone h2::after{
+	/* 絶対いるやつ、なんかいれなあかんけどなんも表示させたくないから”” */
+	content: "";
+	/* 文字が基準になってるから */
+	position: absolute;
+	width:24px;
+	height:24px;
+	background: url(../images/QA/pass_telephone.svg);
+	/* 元画像の縦横比は保持して、要素をちょうどよく覆うサイズにしてくれます。 */
+	background-size: cover;
+	left: -35px;
+	top: 50%;
+
+	/* 数字で設定しちゃうと媒体が変わった時変になっちゃうから％
+	positionは画像の左上基準 */
+	/* yは縦線 */
+	/* ”transform”は画像を回転させたり伸ばしたり縮めたりとにかく変形させるやつ */
+	/* ”translateY”はY軸方向の移動を設定できます。 */
+	transform: translateY(-50%);
+}
+
+.textannounce{
+	position: relative;
+	display: inline-block;
+	/* border:solid tomato; */
+
+}
+
+.textannounce::before{
+	content: "";
+	width:40px;
+	height:40px;
+	border-left:solid #40e358;
+	position: absolute;
+	left:-30px;
+	bottom:0;
+	transform: skew(35deg);
+
+}
+
+.textannounce::after{
+	content: "";
+	width:40px;
+	height:40px;
+	border-left:solid #40e358;
+	position: absolute;
+	right:-65px;
+	bottom:0;
+	transform: skew(-35deg);
+
+}

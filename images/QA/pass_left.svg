@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="281.222" height="1417.153" viewBox="0 0 281.222 1417.153">
+  <g id="グループ_184" data-name="グループ 184" transform="translate(98.222 -205)">
+    <g id="グループ_183" data-name="グループ 183">
+      <circle id="楕円形_48" data-name="楕円形 48" cx="27.5" cy="27.5" r="27.5" transform="translate(-14 205)" fill="rgba(235,116,134,0.78)"/>
+      <circle id="楕円形_58" data-name="楕円形 58" cx="53.5" cy="53.5" r="53.5" transform="translate(-5 1063)" fill="rgba(255,11,11,0.38)"/>
+      <path id="多角形_7" data-name="多角形 7" d="M69,0l69,149H0Z" transform="matrix(0.485, 0.875, -0.875, 0.485, 32.097, 540)" fill="#f8bc77"/>
+      <rect id="長方形_125" data-name="長方形 125" width="41" height="41" transform="translate(144.234 661.885) rotate(19)" fill="#d9e6b4"/>
+      <rect id="長方形_124" data-name="長方形 124" width="40" height="40" transform="matrix(-0.719, 0.695, -0.695, -0.719, 101.645, 355.758)" fill="#ff0b0b"/>
+      <ellipse id="楕円形_65" data-name="楕円形 65" cx="42.5" cy="43.5" rx="42.5" ry="43.5" transform="translate(80 1218)" fill="rgba(0,175,245,0.31)"/>
+      <ellipse id="楕円形_66" data-name="楕円形 66" cx="23" cy="23.5" rx="23" ry="23.5" transform="translate(137 1282)" fill="rgba(255,208,42,0.48)"/>
+    </g>
+    <path id="多角形_11" data-name="多角形 11" d="M68.5,0,137,127H0Z" transform="translate(0 1424)" fill="rgba(224,31,255,0.47)"/>
+    <path id="多角形_12" data-name="多角形 12" d="M63,0l63,100H0Z" transform="matrix(0.174, 0.985, -0.985, 0.174, 151.551, 1480.703)" fill="rgba(11,86,255,0.54)"/>
+  </g>
+</svg>

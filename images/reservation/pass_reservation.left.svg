@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="318.242" height="662.763" viewBox="0 0 318.242 662.763">
+  <g id="グループ_179" data-name="グループ 179" transform="translate(-1151.301 -254.429)">
+    <circle id="楕円形_62" data-name="楕円形 62" cx="53.5" cy="53.5" r="53.5" transform="translate(1312.151 632)" fill="rgba(235,23,243,0.51)"/>
+    <path id="パス_151" data-name="パス 151" d="M370.148,309.622a358.059,358.059,0,0,0,0-105.614l-76.381,52.807Z" transform="matrix(0.469, 0.883, -0.883, 0.469, 1286.766, -51.414)" fill="rgba(153,98,162,0.64)"/>
+    <path id="パス_152" data-name="パス 152" d="M474.43,309.622a155.184,155.184,0,0,0,0-105.614L293.767,256.815Z" transform="translate(913.222 469.046) rotate(-47)" fill="rgba(189,255,0,0.51)"/>
+    <rect id="長方形_175" data-name="長方形 175" width="53" height="53" transform="matrix(0.809, 0.588, -0.588, 0.809, 1192.637, 770.485)" fill="#e8ffa8"/>
+    <rect id="長方形_176" data-name="長方形 176" width="29" height="32" transform="translate(1258.378 845.462) rotate(82)" fill="#ff7f00" opacity="0.555"/>
+    <rect id="長方形_177" data-name="長方形 177" width="21" height="21" transform="translate(1165.212 899.006) rotate(-30)" fill="#abffa8"/>
+    <ellipse id="楕円形_64" data-name="楕円形 64" cx="88" cy="70" rx="88" ry="70" transform="translate(1236 455)" fill="#ff0" opacity="0.666"/>
+  </g>
+</svg>
